@@ -1,0 +1,35 @@
+.header{
+    background-color: rgb(212, 212, 212);
+    width: 100%;
+    height: 70px;
+}
+.menu{
+    width: 100%;
+    height: 58px;
+    background-color: rgb(212, 212, 212);
+ 
+}
+.noi-dung{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.nd{
+width: 180px;
+padding: 20px;
+background-color:rgb(212, 212, 212);
+}
+.ndc{
+    width: 970px;
+    padding: 20px;
+    background-color:rgb(212, 212, 212);
+}
+.text{
+    padding-top: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    
+}
