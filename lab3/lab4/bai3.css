@@ -1,0 +1,62 @@
+.to{
+   width: 100%; 
+   height: 1620px;
+   border: 5px rgb(103, 175, 103) solid;
+}
+.hieutieude{
+text-align: center;
+color:rgb(103, 175, 103);
+}
+.hieu{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+.hieuli{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+.hieuli>a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 800px;
+
+}
+.main1{
+width: 30%;
+height: 1400px;
+padding-left: 20px;
+background-color:rgb(60, 105, 105);
+}
+.main2{
+width: 70%; 
+
+height: 1400px;
+padding-left: 20px;
+background-color: rgb(186, 243, 243);
+}
+.manhinh{
+    padding-bottom: 10px;
+    width: 250px;
+}
+.manhinh2{
+    width: 97%;
+    height: 500px;
+}
+.hieulm{
+    text-align: center;
+    border: 5px rgb(103, 175, 103) solid;
+    width: 100%;
+
+}
+@media screen and (max-width: 600px) {
+    .hieu,
+    .main1{
+        flex-direction: column;
+    }
+}

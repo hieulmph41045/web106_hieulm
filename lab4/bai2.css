@@ -1,0 +1,28 @@
+.gio{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    background-color: #36B87D;
+    width: fit-content;
+    gap: 5px;
+    padding: 5px;
+}
+.hieu{
+    background-color: #BCE2C9;
+    text-align: center;
+    padding: 20px;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.menu{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.footer{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
