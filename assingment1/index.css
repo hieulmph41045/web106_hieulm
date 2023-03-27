@@ -1,0 +1,85 @@
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    border: 1px rgb(42, 252, 182) solid;
+}
+
+.logo{
+    margin: 0px auto;
+    margin-top: 10px;
+    font-size: xx-large;
+}
+.search{
+    padding: 5px;
+    padding-right: 60px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.list{
+    display: inline-block;
+    list-style: none;
+    padding-left: 40px;
+}
+.list>a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+.list>a:hover{
+    font-style: italic;
+    font-weight: bold;
+}
+.banner>img{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;  
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+}
+.menusp{
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 27% 27% 27% 27%;
+    justify-content:space-around;
+}
+.sp{
+    text-align: center;
+}
+.sp:hover{
+    background-color: rgb(250, 248, 248);
+}
+.input{
+    text-decoration: none;
+    color: pink;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 92%;
+}
+.input:hover{
+    color: greenyellow;
+}
+.ytrang{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+}
+.ytrang > p{
+    color: white;
+}
+.hihi{
+    color: aquamarine;
+}
+.logo2{
+    margin: 50px 50px;
+    margin-top: 50px;
+    font-size: 50px;
+    color: blanchedalmond
+}
