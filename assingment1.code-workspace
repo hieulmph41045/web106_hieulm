@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../web106_hieulm"
+		},
+		{
+			"path": "images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web106_hieulm"
+	}
+}
