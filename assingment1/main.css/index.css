@@ -1,37 +1,12 @@
-.menu{
-    width: 100%;
-    height: 50px;
-    background-color: aquamarine;
-    display: grid;
-    grid-template-columns: 20% 80%;
-    border: 1px rgb(42, 252, 182) solid;
+.hieu{
+    padding-left: 20%;
+    font-size: 25px;
 }
 
-.logo{
-    margin: 0px auto;
-    margin-top: 10px;
-    font-size: xx-large;
+.bb{
+    padding: 0px 25px;
 }
-.search{
-    padding: 5px;
-    padding-right: 60px;
-    border: 1px black solid;
-    border-radius: 5px;
-}
-.list{
-    display: inline-block;
-    list-style: none;
-    padding-left: 40px;
-}
-.list>a{
-    color: black;
-    text-decoration: none;
-    font-size: larger;
-}
-.list>a:hover{
-    font-style: italic;
-    font-weight: bold;
-}
+
 .banner>img{
     border-radius: 10px;
     margin-top: 20px;
@@ -63,10 +38,10 @@
 .input{
     text-decoration: none;
     color: pink;
-    padding: 10px;
-    background-color: black;
+    padding : 10px;
+    background-color: rebeccapurple;
     border-radius: 5px;
-    margin-left: 92%;
+    margin-left: 90%;
 }
 .input:hover{
     color: greenyellow;
@@ -74,7 +49,8 @@
 .ytrang{
     width: 100%;
     height: fit-content;
-    background-color: black;
+    text-align: start;
+    background-color: pink;
 }
 .ytrang > p{
     color: white;
@@ -88,10 +64,29 @@
     font-size: 50px;
     color: blanchedalmond
 }
-@media screen and (max-width: 820px){
+@media screen and (max-width: 990px){
     .menusp{
         grid-template-columns: 27% 27% 27%;
+
     }
 
+    .hieu{
+        padding-left: 0px;
+    }
+    .bb{
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 500px){
+    .menusp{
+        grid-template-columns: 27% 27% ;
+    }
+
+    .hieu{
+        padding-left: 0px;
+    }
+    .bb{
+        padding: 0px;
+    }
     
 }

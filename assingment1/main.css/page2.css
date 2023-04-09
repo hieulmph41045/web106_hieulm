@@ -1,0 +1,96 @@
+.hieu{
+    padding-left: 20%;
+    font-size: 25px;
+}
+
+.bb{
+    padding: 0px 25px;
+}
+
+.banner>img{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;  
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+}
+.menusp{
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 27% 27% 27% 27%;
+    justify-content:space-around;
+}
+.sp{
+    text-align: center;
+}
+.sp>a>img{
+    width: 90%;
+}
+
+
+.sp:hover{
+    background-color: rgb(250, 248, 248);
+}
+.input{
+    text-decoration: none;
+    color: pink;
+    padding : 10px;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    margin-left: 90%;
+}
+.input:hover{
+    color: greenyellow;
+}
+.ytrang{
+    width: 100%;
+    height: fit-content;
+    text-align: start;
+    background-color: pink;
+}
+.ytrang > p{
+    color: white;
+}
+.hihi{
+    color: aquamarine;
+}
+.logo2{
+    margin: 50px 50px;
+    margin-top: 50px;
+    font-size: 50px;
+    color: blanchedalmond
+}
+.dvu{
+    padding-left: 12%;
+    font-size: 20px;
+}
+@media screen and (max-width: 990px){
+    .menusp{
+        grid-template-columns: 27% 27% 27%;
+
+    }
+
+    .hieu{
+        padding-left: 0px;
+    }
+    .bb{
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 500px){
+    .menusp{
+        grid-template-columns: 27% 27% ;
+    }
+
+    .hieu{
+        padding-left: 0px;
+    }
+    .bb{
+        padding: 0px;
+    }
+    
+}
